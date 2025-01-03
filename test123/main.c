@@ -1,8 +1,19 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include<stdio.h>
 
-int main()
+void hi();
+void myfunction(void)
 {
-    printf("Hello world!\n");
-    return 0;
+    printf("hello there \n");
+}
+
+
+
+void main()
+{
+    myfunction();
+    hi("pushkar");
+}
+void hi(name)
+{
+    printf(name);
 }
